@@ -1,9 +1,14 @@
 import React from "react";
+import { useEffect } from "react";
 import { useGlobalContext } from "../context";
 
 const SearchForm = () => {
   const { setSearchTerm } = useGlobalContext();
   const searchValue = React.useRef("");
+
+  useEffect(() => {
+    searchValue.current.focus();
+  }, []);
 
   const searchCocktail = () => {
     setSearchTerm(searchValue.current.value);
@@ -11,7 +16,7 @@ const SearchForm = () => {
 
   return (
     <section className="section search">
-      <form className="search-form">
+      <form className="search-form" onSubmit={(e) => e.preventDefault()}>
         <div className="form-control">
           <label htmlFor="name">Search Your Favorite Cocktail </label>
           <input
