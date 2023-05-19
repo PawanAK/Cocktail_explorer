@@ -2,13 +2,20 @@
 
 Hey there, fellow tech enthusiast! Welcome to CockTail Explorer, a web application that allows you to explore and discover your favorite cocktails with just a few clicks. 🚀
 
-![CockTail Explorer]()
+Let's connect on [LinkedIn](https://www.linkedin.com/in/pawan-ajjar-k/) and [Twitter](https://twitter.com/k_ajjar)! Let's build cool stuff together! 💪
+
 
 ## Demo 🎥
 
+
+https://github.com/PawanAK/Cocktail_explorerr/assets/79653474/108e4ec0-8d74-482f-b43c-5fdb2e8a76b9
+
+
 To get a glimpse of the awesome features CockTail Explorer offers, check out this video walkthrough:
 
-[![CockTail Explorer Demo](https://img.youtube.com/vi/your-video-id/maxresdefault.jpg)](https://youtu.be/your-video-id)
+
+
+
 
 ## Features ✨
 
@@ -20,9 +27,9 @@ To get a glimpse of the awesome features CockTail Explorer offers, check out thi
 
 To build this tech marvel, we leveraged the following technologies:
 
-- React.js: ![React.js](react-logo.png) A JavaScript library for building user interfaces.
-- Axios: ![Axios](axios-logo.png) A promise-based HTTP client for making API requests.
-- React Router v6: ![React Router v6](react-router-logo.png) A routing library for React applications.
+- React.js: ![React.js](https://example.com/react-logo.png) A JavaScript library for building user interfaces.
+- Axios: ![Axios](https://example.com/axios-logo.png) A promise-based HTTP client for making API requests.
+- React Router v6: ![React Router v6](https://example.com/react-router-logo.png) A routing library for React applications.
 
 ## Installation and Setup 🖥️
 
@@ -57,6 +64,6 @@ Please note that this is not an exhaustive list, and there may be other known is
 
 CockTail Explorer is licensed under the [MIT License](LICENSE), so you're free to clone, modify, and distribute it to your heart's content.
 
-Let's connect on [LinkedIn](https://www.linkedin.com/in/pawan-ajjar-k/) and [Twitter](https://twitter.com/k_ajjar)! Let's build cool stuff together! 💪
+
 
 Happy cocktail exploring! Cheers! 🥂🍸
