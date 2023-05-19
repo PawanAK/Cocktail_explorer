@@ -5,9 +5,16 @@ import { useGlobalContext } from "../context";
 
 const CocktailList = () => {
   const { cocktails, loading } = useGlobalContext();
-
   if (loading) {
     return <Loading />;
+  }
+
+  if (cocktails.length < 1) {
+    return (
+      <h2 className="section-title">
+        No Cocktails matched your search Criteria
+      </h2>
+    );
   }
 
   return (

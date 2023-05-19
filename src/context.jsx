@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState, useContext, useEffect } from "react";
 import { useCallback } from "react";
 
@@ -8,11 +9,52 @@ const AppProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("a");
   const [cocktails, setCocktails] = useState([]);
+
+  const fetchDrinks = async () => {
+    setLoading(true);
+    try {
+      const response = await axios(`${url}${searchTerm}`);
+      const data = await response.data;
+      const { drinks } = data;
+      if (drinks) {
+        const newCocktails = drinks.map((item) => {
+          const {
+            idDrink,
+            strDrink,
+            strDrinkThumb,
+            strAlcoholic,
+            strGlass,
+            strInstructions,
+          } = item;
+
+          return {
+            id: idDrink,
+            name: strDrink,
+            image: strDrinkThumb,
+            info: strAlcoholic,
+            glass: strGlass,
+            instructions: strInstructions,
+          };
+        });
+        setCocktails(newCocktails);
+      } else {
+        setCocktails([]);
+      }
+      setLoading(false);
+    } catch (error) {
+      console.log(error);
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchDrinks();
+  }, []);
+
   return (
     <AppContext.Provider
       value={{
         loading,
-        searchTerm,
         setSearchTerm,
         cocktails,
       }}>
