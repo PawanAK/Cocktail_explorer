@@ -2,7 +2,7 @@
 
 Hey there, fellow tech enthusiast! Welcome to CockTail Explorer, a web application that allows you to explore and discover your favorite cocktails with just a few clicks. 🚀
 
-Let's connect on [LinkedIn](https://www.linkedin.com/in/pawan-ajjar-k/) and [Twitter](https://twitter.com/k_ajjar)! Let's build cool stuff together! 💪
+Let's connect on [LinkedIn](https://www.linkedin.com/in/pawan-ajjar-k/) and [Twitter](https://twitter.com/k_ajjar)! Let's build cool stuff together!  💪
 
 
 ## Demo 🎥
