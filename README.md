@@ -1,4 +1,4 @@
-<!---# CockTail Explorer 🍹🔍
+<!---# CockTail Explorer  🍹🔍
 
 Hey there, fellow tech enthusiast! Welcome to CockTail Explorer, a web application that allows you to explore and discover your favorite cocktails with just a few clicks. 🚀
 
